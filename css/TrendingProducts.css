@@ -1,0 +1,76 @@
+
+
+
+.TrendingProducts .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.TrendingProducts  .trendprod{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-left: 390px;
+    margin-right: 10px;
+    
+    }
+
+
+.TrendingProducts .trendprod .Trend {
+
+    width: calc((100%-80%)/4);
+    background: #fff;
+     border: 1px solid #ddd;
+
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+    margin: 10px; 
+    margin-top: 10px;
+    }
+    
+    .Trend:hover {
+    transform: scale(1.05);
+    }
+    
+    .Trend img {
+     width: 190px;
+     height: 190px;
+     border-radius: 8px;
+     margin-bottom: 10px;
+    
+    }
+
+    .TrendingProducts .trendprod .Trend    .imgtrend{
+        width: 180px;
+        height: 180px;
+        background-color: #F5F6F8;
+    }
+
+    .TrendingProducts .trendprod .Trend h3 {
+        margin: 20px;
+        color: var(--seccolor);
+    }
+
+
+    .TrendingProducts .trendprod .Trend .price {
+        margin: 20px;
+    }
+
+    .TrendingProducts .trendprod .Trend .dir {
+        color:#1518754D ;
+        text-decoration-line: underline;
+        margin: 10px;
+

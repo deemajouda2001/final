@@ -1,0 +1,54 @@
+
+
+
+.Featurescontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
+.Featurescontent .right{
+
+   margin-left: 170px;
+   margin-left: 30px;
+
+}
+
+
+
+
+.Featurescontent .right h2{
+margin-left: 20px;
+margin-right: 80px;
+    color:#151875 ;
+}
+
+
+.Featurescontent .right .subtitle{
+    font-size: 1em;
+
+color: #ACABC3;
+
+}
+
+
+.Featurescontent .right .title{
+    font-size: 1em;
+    color: #ACABC3;
+    
+    }
+
+    .Featurescontent .right .discription{
+        font-size: 1em;
+
+        color: #ACABC3;
+        
+        }
+            

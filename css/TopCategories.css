@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TopCategories .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color:var(--seccolor);
+    font-family: var(--secondfont);
+    margin: 20px;
+    font-size: larger;
+    
+    }
+    
+    .allbackeg  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+        gap: 20px;
+        height: 400px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .allbackeg .backeg {
+        margin: 20px;
+        padding: 20px;
+        
+    
+    
+    }
+    
+    .allbackeg .backed .imgee {
+        width: 230px;
+        height: 231px;
+        border-radius: 130px;
+        background-color: #f1f1f1d4;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+   
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background: radial-gradient(circle, rgba(242, 244, 255, 1), rgba(242, 244, 255, 0.8));
+        border: 3px solid #9b59b6; /* Purple border */
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+    .allbackeg .backed .imgee  img{
+
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    box-shadow: #F6F7FB;
+
+
+    }
+    .backeg .details{
+           
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color:#151875;
+    
+    }
+
+    .TopCategories .price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color:#151875;
+
+    }
